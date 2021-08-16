@@ -1,16 +1,16 @@
-# airport_finder
+# AIRPORT FINDER
 
-A new Flutter project.
+A Simple Application which is used a Airport Data from this [Link](https://raw.githubusercontent.com/mwgg/Airports/master/airports.json "Link") and Display data in Listview.
 
-## Getting Started
+### Application Features
+- Fetch data from API and Display it in UI
+- Details Page which display Name, Map, City, ICAO, State, TZ and Country.
+- Google Map marker for display data.
+- Offline Support (Download JSON file to local storage and display when user is offline)
 
-This project is a starting point for a Flutter application.
+### Pages
+- Homepage - For Display all Data in Listview
+- Details page - For Display All details of Airport.(with Google Map)
+- Download Page - For Download Json file to Storage.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Project Video
